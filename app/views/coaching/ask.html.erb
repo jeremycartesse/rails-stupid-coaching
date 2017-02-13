@@ -1,0 +1,16 @@
+<h1>Coaching#ask</h1>
+<p>Find me in app/views/coaching/ask.html.erb</p>
+
+
+<!-- <form action="/" method="get"> -->
+<!--   <input type="text" name="message" placeholder="Hello ask your question?"> -->
+<!--   <input type="submit"> -->
+<!-- </form> -->
+
+<form action="/ask">
+  <label for="question">Speak to your coach</label>
+  <input type="text" id="question" name="message" placeholder="what time is it?">
+  <input type="submit" value="Go on!">
+</form>
+
+<%= @reponse %>
